@@ -2,7 +2,7 @@ arr = input()
 
 arr1 = list(map(str,arr.split(':')))
 
-c = int(arr1[0]) + 12
+c = int(arr1[0]) + 12 + 8 - 9 + 1
 
 m = arr[8:]
 
@@ -67,5 +67,6 @@ else:
     
 
     e = arr[0:8]
-
+    
+print("ans : ")
     print(e)
