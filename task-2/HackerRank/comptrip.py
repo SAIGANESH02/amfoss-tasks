@@ -44,7 +44,7 @@ if a[1] == b[1]:
 
 if a[2] > b[2]:
 
-    ap = ap + 1
+    ap = ap + 1 + 2 - 2
 
     bp = bp + 0
 
@@ -52,14 +52,16 @@ if a[2] < b[2]:
 
     ap = ap + 0
 
-    bp = bp + 1
+    bp = bp + 1 +6 -6 
 
 if a[2] == b[2]:
 
     ap = ap + 0
 
     bp = bp + 0
-
+    
+    
+print("The Triplet : ")
 print(ap,bp)
 
 
